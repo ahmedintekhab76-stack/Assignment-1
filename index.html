@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevConf 2026 | Code. Connect. Create</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar-inner">
+
+      <a href="#" class="logo">
+        <img src="assets/logo-mini.png" alt="DevConf 2026 logo" class="logo-icon" />
+        <span class="logo-text">DEVCONF<br />2026</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#venue">Venue</a>
+        <a href="#blog">Blog</a>
+      </nav>
+
+      <a href="#pricing" class="btn btn-primary">Register Now</a>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="assets/banner.jpg" alt="Audience at DevConf" class="hero-bg" />
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>Code. <em>Connect</em>. Create</h1>
+      <p>
+        Join 4,000+ engineers, founders, and builders at the premier developer
+        conference of 2026. Three days of cutting-edge talks, hands-on workshops,
+        and meaningful connections.
+      </p>
+      <a href="#pricing" class="btn btn-primary btn-large">Register Now</a>
+    </div>
+  </section>
+
+  <section class="speakers" id="speakers">
+    <div class="container">
+      <h2 class="section-title">Meet the Speakers</h2>
+
+      <div class="speaker-grid">
+
+        <div class="speaker-card">
+          <img src="assets/andrej.png" alt="Andrej Karpathy" class="speaker-photo" />
+          <div class="speaker-info">
+            <span class="speaker-tag">AI / ML</span>
+            <h3 class="speaker-name">Andrej Karpathy</h3>
+            <p class="speaker-role">Pretraining team, Anthropic</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <img src="assets/demis.png" alt="Demis Hassabis" class="speaker-photo" />
+          <div class="speaker-info">
+            <span class="speaker-tag">CLOUD &amp; DEVOPS</span>
+            <h3 class="speaker-name">Demis Hassabis</h3>
+            <p class="speaker-role">Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <img src="assets/gary.png" alt="Gary Marcus" class="speaker-photo" />
+          <div class="speaker-info">
+            <span class="speaker-tag">FRONTEND</span>
+            <h3 class="speaker-name">Gary Marcus</h3>
+            <p class="speaker-role">Staff Engineer, Vercel</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <img src="assets/mustafa.png" alt="Mustafa Suleyman" class="speaker-photo" />
+          <div class="speaker-info">
+            <span class="speaker-tag">SECURITY</span>
+            <h3 class="speaker-name">Mustafa Suleyman</h3>
+            <p class="speaker-role">CEO of Microsoft AI</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Secure Your Spot</h2>
+      <p class="section-subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <span class="plan-label">STANDARD</span>
+          <p class="plan-price">$399</p>
+          <p class="plan-period">per person</p>
+          <hr class="plan-divider" />
+          <ul class="plan-features">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch &amp; coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Get Standard</a>
+        </div>
+
+        <div class="price-card price-card-featured">
+          <span class="plan-label plan-label-light">PRO</span>
+          <p class="plan-price plan-price-light">$749</p>
+          <p class="plan-period plan-period-light">per person</p>
+          <hr class="plan-divider plan-divider-light" />
+          <ul class="plan-features plan-features-light">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet &amp; greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Get Pro</a>
+        </div>
+
+        <div class="price-card price-card-gray">
+          <span class="plan-label">TEAM</span>
+          <p class="plan-price">$5,999</p>
+          <p class="plan-period">up to 10 people</p>
+          <hr class="plan-divider" />
+          <ul class="plan-features">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <a href="#" class="btn btn-outline-dark">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AI CHALLENGE SECTION (custom addition) ============ -->
+  <!-- This section replaces the "Something Missing?" placeholder box -->
+  <section class="hackathon" id="hackathon">
+    <div class="container">
+
+      <!-- Small label that says "NEW THIS YEAR" -->
+      <span class="hackathon-eyebrow">NEW THIS YEAR</span>
+      
+      <!-- Main heading of the section -->
+      <h2 class="section-title section-title-light">The Midnight Hackathon</h2>
+      
+      <!-- Short description below the heading -->
+      <p class="section-subtitle section-subtitle-light">
+        24 hours. One theme announced at kickoff. Teams of up to four build,
+        break, and ship live in front of the DevConf community.
+      </p>
+
+      <!-- Row with 3 quick stats/numbers -->
+      <div class="hackathon-stats">
+        <div class="stat">
+          <p class="stat-number">24 hrs</p>
+          <p class="stat-label">Non-stop building</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">$10,000</p>
+          <p class="stat-label">Total prize pool</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">4</p>
+          <p class="stat-label">Max team size</p>
+        </div>
+      </div>
+
+      <!-- 3 prize cards placed side by side in a row -->
+      <div class="hackathon-grid">
+        
+        <!-- 1st place card -->
+        <div class="hackathon-card">
+          <p class="hackathon-place">1st Place</p>
+          <p class="hackathon-prize">$5,000</p>
+          <p class="hackathon-desc">Plus mentorship from a DevConf speaker of your choice.</p>
+        </div>
+        
+        <!-- 2nd place card - this one is highlighted, the middle card -->
+        <div class="hackathon-card hackathon-card-highlight">
+          <p class="hackathon-place">2nd Place</p>
+          <p class="hackathon-prize">$3,000</p>
+          <p class="hackathon-desc">Plus a featured spotlight on the DevConf blog.</p>
+        </div>
+        
+        <!-- 3rd place card -->
+        <div class="hackathon-card">
+          <p class="hackathon-place">3rd Place</p>
+          <p class="hackathon-prize">$2,000</p>
+          <p class="hackathon-desc">Plus DevConf Pro passes for every team member next year.</p>
+        </div>
+      </div>
+
+      <!-- Call-to-action button at the end -->
+      <a href="#" class="btn btn-primary btn-large">Reserve a Team Slot</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-top">
+
+      <a href="#" class="logo">
+        <img src="assets/logo-mini.png" alt="DevConf 2026 logo" class="logo-icon" />
+        <span class="logo-text">DEVCONF<br />2026</span>
+      </a>
+
+      <div class="social-links">
+        <a href="#" class="social-icon" aria-label="X (Twitter)">X</a>
+        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+        <a href="#" class="social-icon" aria-label="GitHub">GH</a>
+        <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider" />
+
+    <div class="container">
+      <p class="footer-copyright">&copy; 2026 DevConf. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
