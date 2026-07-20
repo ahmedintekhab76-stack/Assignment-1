@@ -347,3 +347,96 @@ img {
 .plan-features-light li {
   color: #d1d5db;
 }
+
+/* =========================================================
+   AI CHALLENGE SECTION — "The Midnight Hackathon"
+   (This replaces the "Something Missing?" placeholder box)
+========================================================= */
+
+.hackathon {
+  padding: 96px 0;
+  background-color: var(--color-navy);
+  color: #ffffff;
+  text-align: center;
+}
+
+.hackathon-eyebrow {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #93c5fd;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.section-title-light {
+  color: #ffffff;
+}
+
+.section-subtitle-light {
+  color: #d1d5db;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hackathon-stats {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin: 48px 0;
+}
+
+.stat-number {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #93c5fd;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #d1d5db;
+  margin-top: 4px;
+}
+
+.hackathon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.hackathon-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 28px;
+}
+
+.hackathon-card-highlight {
+  background-color: rgba(147, 197, 253, 0.12);
+  border: 1px solid #93c5fd;
+}
+
+.hackathon-place {
+  font-size: 0.85rem;
+  color: #93c5fd;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hackathon-prize {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hackathon-desc {
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
