@@ -197,3 +197,54 @@ img {
   color: #e5e7eb;
   margin-bottom: 32px;
 }
+
+.speakers {
+  padding: 96px 0;
+}
+
+.speakers .section-title {
+  margin-bottom: 48px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.speaker-card {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.speaker-photo {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.speaker-info {
+  padding: 20px;
+}
+
+.speaker-tag {
+  display: block;
+  color: var(--color-blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.speaker-name {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.speaker-role {
+  color: var(--color-text-gray);
+  font-size: 0.9rem;
+}
